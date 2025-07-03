@@ -1,0 +1,19 @@
+﻿TaskId;TaskName;PrevTaskId;O;M;P
+1;Instalacja i konfiguracja kamer na linii produkcyjnej do zbierania danych;;2;3;5
+2;Zbieranie i anotacja danych wideo i obrazów z linii produkcyjnej;1;5;8;15
+3;Eksploracyjna analiza i przygotowanie danych;2;10;20;25
+4;Budowa prototypu do testowania w warunkach laboratoryjnych;1;1;2;5
+5;Stworzenie symulacji komputerowej linii produkcyjnej;1;5;15;20
+6;Wybór architektury modeli AI do detekcji anomalii;3;3;5;8
+7;Trenowanie modeli AI do detekcji anomalii;6;15;30;40
+8;Walidacja i testowanie modeli na danych testowych;7;5;8;10
+9;Testowanie modeli na prototypie laboratoryjnym;4,8;2;6;8
+10;Testowanie modeli w środowisku symulacyjnym;5,8;3;7;10
+11;Budowa prototypu do testowania na linii produkcyjnej;4;5;10;20
+12;Testy prototypu na linii produkcyjnej;9,10,11;5;15;25
+13;Opracowanie API do detekcji anomalii (interfejs do modeli AI);6;3;5;10
+14;Integracja z istniejącym systemem monitoringu i zarządzania linią produkcyjną;13,1;5;10;20
+15;Opracowanie modułu raportowania;8,14;10;15;25
+16;Testy w warunkach rzeczywistych na linii produkcyjnej;12,15;10;20;40
+17;Szkolenie personelu w obsłudze systemu;12,14;3;5;8
+18;Wdrożenie systemu;16,17;2;3;5
